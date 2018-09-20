@@ -1,0 +1,8 @@
+javac -cp ".:lib/*" core/*.java
+javac -cp ".:lib/*" movement/*.java
+javac -source 10 -source 1.10 -target 10 -target 1.10 -cp ".:lib/*" report/*.java
+javac -source 10 -source 1.10 -target 10 -target 1.10 -cp ".:lib/*" routing/*.java
+javac -source 10 -source 1.10 -target 10 -target 1.10 -cp ".:lib/*" gui/*.java
+javac -source 10 -source 1.10 -target 10 -target 1.10 -cp ".:lib/*" input/*.java
+javac -source 10 -source 1.10 -target 10 -target 1.10 -cp ".:lib/*" applications/*.java
+javac -source 10 -source 1.10 -target 10 -target 1.10 -cp ".:lib/*" interfaces/*.java
